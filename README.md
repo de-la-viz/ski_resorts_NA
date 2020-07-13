@@ -10,7 +10,7 @@ The dataset can be found on the Wikipedia [Comparison of North American ski reso
 
 ## Code
 
-Run master.R to reproduce the visualization. The small multiples, legend and map visualizations are saved separately as .svg and .PDF there:
+Run master.R to reproduce the visualization. The small multiples, legend and map visualizations are saved separately as .svg and .PDF in /plots.
 
 ## Poster
 

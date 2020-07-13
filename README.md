@@ -15,3 +15,9 @@ Run master.R to reproduce the visualization. The small multiples, legend and map
 ## Poster
 
 The legend, map, small multiples, description and title were then put together in Inkscape. You can buy the poster on [Zazzle](https://www.zazzle.com/north_american_ski_resorts_poster-228561527334652568), or print it yourself! ;) 
+
+![poster](./poster/poster_A4.svg)
+
+## Design Process
+
+![design_process](./poster/design_process.gif)

@@ -4,7 +4,7 @@ _Nucleating around a dust particle, each snowflake has six branches. Each branch
 
 ## Code
 
-Run main.R to reproduce the visualization. The [/poster](./poster) folder contains the viz in PDF, PNG and SVG format.   
+Run [main.R](main.R) to reproduce the visualization. The [/poster](./poster) folder contains the viz in PDF, PNG and SVG format.   
 
 ## Data
 

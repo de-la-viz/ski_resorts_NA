@@ -20,4 +20,4 @@ The legend, map, small multiples, description and title were then put together i
 
 ## Design Process
 
-![design_process](./poster/design_process.gif)
+![design_process](./poster/design_process2.gif)

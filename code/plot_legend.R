@@ -22,7 +22,7 @@ legend_df <- tibble(Resort_name = names, variable = variables, value = values_no
 arrow_width = 5 # angle x
 arrow_heigth = 0.1 # y
 space_btw_arrows = 0.12
-size = 1
+size = 0.9 # weight of branches in geom_segment()
 
 # need to compute arrows values:
 legend_df <- legend_df %>% 
@@ -70,22 +70,22 @@ p_legend <- ggplot(legend_df, aes(x = angle, y = value)) +
                size = size, color = "white", lineend = "round") + 
   my_theme() +
   geom_text(aes(label = labels, y = value), size = 2, color = light,
-               vjust = c(-2, -0.5, +3, +3, +1.8, -2), 
-               hjust = c(0.5, 0, 0.2, 0.4, 0.5, 0.8))
+               vjust = c(-2, -0.7, +3, +3, +1.8, -2), 
+               hjust = c(0.5, 0.2, 0.4, 0.4, 0.5, 0.8))
 
 
 # Save as PDF:
-ggsave(filename = "plots/legend.pdf", 
+ggsave(filename = "subplots/legend.pdf", 
        plot = p_legend, 
        device = cairo_pdf,
        width = 59.4, # = 297mm/5 (one fifth of the A4 landscape width)
        height = 59.4, 
        units = "mm")
 # embed the output font in the PDF:
-extrafont::embed_fonts("plots/legend.pdf")
+extrafont::embed_fonts("subplots/legend.pdf")
 
 # Save as SVG:
-ggsave(filename = "plots/legend.svg", 
+ggsave(filename = "subplots/legend.svg", 
        plot = p_legend, 
        width = 59.4, # = 297mm/5 (one fifth of the A4 landscape width)
        height = 59.4, 

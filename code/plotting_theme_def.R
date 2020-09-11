@@ -9,8 +9,6 @@ light <- "white" # color of snowflakes and text
 dark <- "#383e42" # color of background
 my_font <- "Fira Sans" # warning: the font of the annotations is handled separatly in geom_text()
 
-size = 0.6 # size of geom_segment()
-
 # Define the theme for the plots (background and text)
 my_theme <- function() {
   theme_minimal() +

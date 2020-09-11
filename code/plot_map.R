@@ -22,16 +22,18 @@ plot_map <- function(resorts_localized){
     )
   
   # Save as PDF:
-  ggsave(filename = "plots/map.pdf", 
+  ggsave(filename = "subplots/map.pdf", 
          plot = p_map, 
          device = cairo_pdf,
          width = 59.4, # = 297mm/5 (one fifth of the A4 landscape width)
          height = 59.4, 
          units = "mm")
   # Save as SVG:
-  ggsave(filename = "plots/map.svg", 
+  ggsave(filename = "subplots/map.svg", 
          plot = p_map, 
          width = 59.4, # = 297mm/5 (one fifth of the A4 landscape width)
          height = 59.4, 
          units = "mm")
+  
+  return(p_map)
 }

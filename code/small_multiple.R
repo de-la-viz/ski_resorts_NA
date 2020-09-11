@@ -10,6 +10,8 @@ resorts_raw <- rio::import("data/resorts_for_plotting.RData")
 arrow_width = 5 # angle x
 arrow_heigth = 0.1 # y
 space_btw_arrows = 0.12 
+size = 0.6 # weight of branches in geom_segment()
+
 resorts <- resorts_raw %>% 
   mutate(
     arr_out = Norm, # y-pos of end of arrow
@@ -70,16 +72,16 @@ sm <- ggplot(resorts, aes(x = Angle, y = Norm)) +
 
 
 # Save as PDF A4, landscape
-ggsave(filename = "plots/small_multiple.pdf", 
+ggsave(filename = "subplots/small_multiple.pdf", 
        plot = sm, 
        device = cairo_pdf,
        width = 297, 
        height = 210, 
        units = "mm")
 # embed the output font in the PDF:
-extrafont::embed_fonts("plots/small_multiple.pdf")
+extrafont::embed_fonts("subplots/small_multiple.pdf")
 
-ggsave(filename = "plots/small_multiple.svg", 
+ggsave(filename = "subplots/small_multiple.svg", 
        plot = sm, 
        width = 297, 
        height = 210, 

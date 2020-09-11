@@ -13,7 +13,7 @@ The dataset can be found on the Wikipedia [Comparison of North American ski reso
 
 ## Visualization
 
-The visualization is 100% ggplot2 and was put together with _cowplot_. You can buy the poster on [Zazzle](https://www.zazzle.com/north_american_ski_resorts_poster-228561527334652568), or print it yourself!  
+The visualization is done 100% with R _ggplot2_ and was put together with _cowplot_. You can buy the poster on [Zazzle](https://www.zazzle.com/north_american_ski_resorts_poster-228561527334652568), or print it yourself!  
 _License: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)_
 
 ![poster](./poster/ski_resort_poster.svg)

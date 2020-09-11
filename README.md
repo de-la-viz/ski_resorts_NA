@@ -11,7 +11,7 @@ Run [main.R](main.R) to reproduce the visualization. The [/poster](./poster) fol
 The dataset can be found on the Wikipedia [Comparison of North American ski resorts](https://en.wikipedia.org/wiki/Comparison_of_North_American_ski_resorts) page. 
 
 
-## Poster
+## Visualization
 
 The visualization is 100% ggplot2 and was put together with _cowplot_. You can buy the poster on [Zazzle](https://www.zazzle.com/north_american_ski_resorts_poster-228561527334652568), or print it yourself!  
 _License: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)_
